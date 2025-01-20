@@ -73,9 +73,13 @@ struct ContentView: View {
                             Text(task.category)
                                 .font(.caption)
                                 .foregroundColor(.secondary)
+                            if let dueDate = task.dueDate {
+                                Text(formatDate(dueDate))
+                                    .font(.caption)
+                                    .foregroundColor(.secondary)
+                            }
                             if let dueDate = task.dueDate,
-                                dueDate < Date() && !task.isCompleted
-                            {
+                               dueDate < Date() && !task.isCompleted {
                                 Text("Late")
                                     .foregroundColor(.red)
                                     .font(.caption)
@@ -98,6 +102,14 @@ struct ContentView: View {
             .background(colorScheme == .dark ? Color.black : Color.white)
             .navigationTitle("My Tasks")
         }
+    }
+
+    // Format the date to display it nicely
+    private func formatDate(_ date: Date) -> String {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .short
+        formatter.timeStyle = .none
+        return formatter.string(from: date)
     }
 
     // Add a task
