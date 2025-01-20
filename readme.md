@@ -51,3 +51,13 @@ This project is open source and available under the MIT License.
 ## Acknowledgments
     •    Thanks to Apple for SwiftUI and SwiftData.
     •    Thanks to the open-source community for providing inspiration and resources.
+
+## Screenshots
+
+Screenshots demonstrating the application's features.
+
+<p align="center">
+  <img src="https://github.com/mandreshope/tasks/blob/main/screenshots/screen1.png?raw=true" width="250" title="Task list">
+  <img src="https://github.com/mandreshope/tasks/blob/main/screenshots/screen2_save.png?raw=true" width="250" title="Add a due date">
+  <img src="https://github.com/mandreshope/tasks/blob/main/screenshots/screen3.png?raw=true" width="250" title="Select category">
+</p>
