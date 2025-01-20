@@ -23,23 +23,26 @@ TaskManager is a simple iOS application built with SwiftUI and SwiftData. It all
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/mandreshope/task_manager.git
-   ```
-2.    Open the TaskManager.xcodeproj file in Xcode.
-3.    Build and run the project on the iOS simulator or a physical device.
+```bash
+git clone https://github.com/mandreshope/task_manager.git
+```
+
+2. Open the TaskManager.xcodeproj file in Xcode.
+3. Build and run the project on the iOS simulator or a physical device.
 
 ## Usage
-    •    On the main screen, you can add tasks by entering a title, selecting a category (Work, Personal, Leisure), and setting a due date.
-    •    You can view tasks in a list format with the option to search, mark as completed, and delete tasks.
-    •    Tasks that are past due will be marked as “Late.”
-    •    Notifications will be sent when the task’s due date is approaching.
+
+• On the main screen, you can add tasks by entering a title, selecting a category (Work, Personal, Leisure), and setting a due date.
+• You can view tasks in a list format with the option to search, mark as completed, and delete tasks.
+• Tasks that are past due will be marked as “Late.”
+• Notifications will be sent when the task’s due date is approaching.
 
 ## Code Explanation
-    •    SwiftUI: The app is built using SwiftUI for a modern declarative UI.
-    •    SwiftData: Tasks are stored using SwiftData, Apple’s modern data persistence framework.
-    •    User Notifications: Notifications are scheduled for each task based on the due date.
-    •    Dark and Light Mode: The app adapts to the system’s color scheme.
+
+• SwiftUI: The app is built using SwiftUI for a modern declarative UI.
+• SwiftData: Tasks are stored using SwiftData, Apple’s modern data persistence framework.
+• User Notifications: Notifications are scheduled for each task based on the due date.
+• Dark and Light Mode: The app adapts to the system’s color scheme.
 
 ## Contributing
 
@@ -50,8 +53,9 @@ Feel free to fork this repository, open issues, and submit pull requests.
 This project is open source and available under the MIT License.
 
 ## Acknowledgments
-    •    Thanks to Apple for SwiftUI and SwiftData.
-    •    Thanks to the open-source community for providing inspiration and resources.
+
+• Thanks to Apple for SwiftUI and SwiftData.
+• Thanks to the open-source community for providing inspiration and resources.
 
 ## Screenshots
 
