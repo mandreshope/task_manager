@@ -12,9 +12,13 @@ import SwiftData
 class Task {
     var title: String
     var isCompleted: Bool
+    var category: String
+    var dueDate: Date?
 
-    init(title: String, isCompleted: Bool = false) {
+    init(title: String, category: String = "Général", dueDate: Date? = nil, isCompleted: Bool = false) {
         self.title = title
+        self.category = category
+        self.dueDate = dueDate
         self.isCompleted = isCompleted
     }
 }
