@@ -25,6 +25,7 @@ TaskManager is a simple iOS application built with SwiftUI and SwiftData. It all
 
    ```bash
    git clone https://github.com/mandreshope/task_manager.git
+   ```
 2.    Open the TaskManager.xcodeproj file in Xcode.
 3.    Build and run the project on the iOS simulator or a physical device.
 
