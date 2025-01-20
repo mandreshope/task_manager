@@ -58,6 +58,6 @@ Screenshots demonstrating the application's features.
 
 <p align="center">
   <img src="https://github.com/mandreshope/task_manager/blob/main/screenshots/screen1.png?raw=true" width="250" title="Task list">
-  <img src="https://github.com/mandreshope/task_manager/blob/main/screenshots/screen2_save.png?raw=true" width="250" title="Add a due date">
-  <img src="https://github.com/mandreshope/task_manager/blob/main/screenshots/screen3.png?raw=true" width="250" title="Select category">
+  <img src="https://github.com/mandreshope/task_manager/blob/main/screenshots/screen2.png?raw=true" width="250" title="Add a due date">
+  <img src="https://github.com/mandreshope/task_manager/blob/main/screenshots/screen3.png?raw=true" width="250" title="Select a category">
 </p>
